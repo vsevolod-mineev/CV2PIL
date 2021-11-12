@@ -1,3 +1,5 @@
+import cv2
+import numpy as np
 class CV2PIL:    
     def cv_to_pil(cv_image):
         pil_image = cv_image.copy()
