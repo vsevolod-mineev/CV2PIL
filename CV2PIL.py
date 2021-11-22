@@ -10,5 +10,4 @@ class CV2PIL:
         elif pil_image.shape[2] == 4:
             pil_image = cv2.cvtColor(pil_image, cv2.COLOR_BGRA2RGBA)
         pil_image = Image.fromarray(pil_image)
-
         return pil_image
